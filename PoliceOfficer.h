@@ -10,8 +10,8 @@ class PoliceOfficer
 	int badge;
 	static double calcFine(Time min);
 public:
-	void getName();
-	void getBadge();
+	string getName();
+	int getBadge();
 	void examine();
 	void makeTicket();
 };

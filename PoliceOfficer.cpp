@@ -1,20 +1,19 @@
 #include "PoliceOfficer.h"
 
 
-void PoliceOfficer::getName()
+string PoliceOfficer::getName()
 {
-
+	return name;
 }
 
-void PoliceOfficer::getBadge()
+int PoliceOfficer::getBadge()
 {
-
+	return badge;
 }
-
 
 void PoliceOfficer::examine()
 {
-
+	
 }
 
 void PoliceOfficer::makeTicket()
