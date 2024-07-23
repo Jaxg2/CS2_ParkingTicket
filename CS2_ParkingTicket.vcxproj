@@ -128,9 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ParkedCar.h" />
+    <ClInclude Include="ParkingMeter.h" />
+    <ClInclude Include="ParkingTicket.h" />
+    <ClInclude Include="PoliceOfficer.h" />
+    <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ParkedCar.cpp" />
+    <ClCompile Include="ParkingMeter.cpp" />
+    <ClCompile Include="ParkingTicket.cpp" />
+    <ClCompile Include="PoliceOfficer.cpp" />
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

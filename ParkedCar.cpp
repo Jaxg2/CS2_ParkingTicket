@@ -2,52 +2,38 @@
 #include <iostream>
 using namespace std;
 
-string ParkedCar::getMake()
+
+ParkedCar::ParkedCar(string make, string model, string color, string license, int min)
 {
 
+}
+
+string ParkedCar::getMake()
+{
+	return make;
 }
 
 string ParkedCar::getModel()
 {
-
+	return model;
 }
 
 string ParkedCar::getColor()
 {
-
+	return color;
 }
 
-int ParkedCar::getLicense()
+string ParkedCar::getLicense()
 {
-
+	return license;
 }
 
 int ParkedCar::getMin()
 {
-
-}
-
-void ParkedCar::setMake()
-{
-
-}
-
-void ParkedCar::setModel()
-{
-
-}
-
-void ParkedCar::setColor()
-{
-
-}
-
-void ParkedCar::setLicense()
-{
-
+	return min;
 }
 
 void ParkedCar::setMin()
 {
-
+	min = 0;
 }
